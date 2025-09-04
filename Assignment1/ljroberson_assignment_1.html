@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lauren Roberson - Digital Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #4b4bff;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 400;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .info {
+            text-align: left;
+            margin: 20px 0;
+        }
+
+        .info p {
+            font-size: 1rem;
+            margin: 10px 0;
+        }
+
+        .highlight {
+            font-weight: bold;
+            color: #4b4bff;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-style: italic;
+            color: #888;
+        }
+
+        /* Decorative circles */
+        .circle {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.15;
+            z-index: -1;
+        }
+
+        .circle1 {
+            width: 200px;
+            height: 200px;
+            background: #ff6b6b;
+            top: -50px;
+            left: -50px;
+        }
+
+        .circle2 {
+            width: 150px;
+            height: 150px;
+            background: #1dd1a1;
+            bottom: -50px;
+            right: -50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="circle circle1"></div>
+    <div class="circle circle2"></div>
+
+    <div class="profile-card">
+        <h1>Lauren Roberson</h1>
+        <h2>Digital Profile</h2>
+
+        <div class="info">
+            <p><span class="highlight">Age:</span> 18 years old</p>
+            <p><span class="highlight">Hometown:</span> Chicago, Illinois</p>
+            <p><span class="highlight">Major:</span> Computer Science</p>
+            <p><span class="highlight">Hobby:</span> Singing</p>
+            <p><span class="highlight">Expected Graduation:</span> 2029</p>
+        </div>
+
+        <div class="footer">
+            Thanks for setting up your profile!
+        </div>
+    </div>
+</body>
+</html>
