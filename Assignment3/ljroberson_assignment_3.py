@@ -14,26 +14,26 @@ credit_hours_list = [3, 1, 1, 3, 4, 4]
 gpa_history = [3.2, 3.3, 4.0, 4.0]
 
 # Contact Information Storage
-emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
-home_address = ("456 Oak Street", "Charlotte", "NC", "28202")
-instagram_info = ("Instagram", "@jordan_codes", 312)
-twitter_info = ("Twitter", "@jordandev", 127)
-birthday = ("Birthday", 5, 22, 2006)
+emergency_contact = ("Mom", "Melissa Towns", "773-655-3749")
+home_address = ("3146 223rd Street", "Sauk Village", "IL", "60411")
+instagram_info = ("Instagram", "@laur.joelle", 873)
+twitter_info = ("Twitter", "@laurjoelle", 7)
+birthday = ("Birthday", 3, 20, 2007)
 
 # Interest Tracking
-current_skills_set = {"Python basics", "HTML", "Problem solving", "Time management", "Photography"}
-skills_to_learn_set = {"JavaScript", "Data structures", "Git", "Web design", "Public speaking"}
-career_interests_set = {"Software development", "Web development", "Data science", "Game development"}
-hobbies_set = {"Gaming", "Photography", "Reading", "Soccer", "Music"}
-entertainment_backlog_set = {"One Piece", "Barry", "Life", "Incantation", "Memento"}
+current_skills_set = {"JavaScript", "HTML/CSS", "Git", "Time Management", "Problem Solving"}
+skills_to_learn_set = {"React", "Data structures", "Web design", "Public speaking", "Python"}
+career_interests_set = {"Software Development", "Web Development", "Data Science", "Game Development"}
+hobbies_set = {"Gaming", "Crochet", "Reading", "Choir", "Music"}
+entertainment_backlog_set = {"One Piece", "Naruto", "Fruits Basket", "IT", "ET"}
 
 # Organizational Mapping
-course_credits = {"COMP 163": 3, "MATH 150": 3, "ENG 101": 3, "HIS 105": 3}
-course_professors = {"COMP 163": "Prof. Rhodes", "MATH 150": "Dr. Lee", "ENG 101": "Dr. Martinez", "HIS 105": "Dr. Brown"}
-course_rooms = {"COMP 163": "M-Eric 300", "MATH 150": "Marteena 201", "ENG 101": "Crosby 121", "HIS 105": "Crosby 210"}
-monthly_budget = {"Food": 450, "Entertainment": 200, "Books": 125, "Transportation": 100}
-study_hours = {"Programming": 10, "Math": 8, "English": 4, "History": 3}
-contact_directory = {"Mom": "704-555-0199", "Roommate": "336-555-7821", "Academic Advisor": "336-334-5000"}
+course_credits = {"COMP 163": 3, "MATH 110": 4, "ENGL 100": 3, "HIST 106": 3, "GEEN 111": 4, "FRST 101": 1}
+course_professors = {"COMP 163": "Prof. Rhodes", "MATH 110": "Dr. Johnson", "ENGL 100": "Dr. Jefferson", "HIST 106": "Dr. Dovoe", "GEEN 111": "Dr. Parrish", "FRST 101": "Prof. Barrow"}
+course_rooms = {"COMP 163": "M-Eric 300", "MATH 110": "Marteena 201", "ENGL 100": "Online", "HIST 106": "Online", "GEEN 111": "McNair 240", "FRST 101": "Online"}
+monthly_budget = {"Food": 200, "Entertainment": 135, "Books": 0, "Transportation": 150}
+study_hours = {"Programming": 4, "Math": 6, "English": 2, "History": 3}
+contact_directory = {"Mother": "773-655-3749", "Roommate": "436-565-7043", "Academic Advisor": "336-334-5067"}
 
 # Required Calculations
 total_credits = sum(credit_hours_list)
