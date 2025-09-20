@@ -8,10 +8,10 @@ graduation_semester = "Spring 2029"
 major = "Computer Science"
 
 # Academic Data Organization
-current_courses = ["COMP 163", "MATH 150", "ENG 101", "HIS 105"]
-completed_courses = ["Biology", "Chemistry", "Calculus", "Spanish II", "World History"]
-credit_hours_list = [3, 3, 3, 3]
-gpa_history = [3.2, 3.6, 3.4, 3.7]
+current_courses = ["COMP 163", "MATH 110", "ENGL 100", "HIST 106", "GEEN 111", "FRST 101"]
+completed_courses = ["AP Lang", "AP Pysch", "Pre-Calc", "Game Programming", "Web Design"]
+credit_hours_list = [3, 1, 1, 3, 4, 4]
+gpa_history = [3.2, 3.3, 4.0, 4.0]
 
 # Contact Information Storage
 emergency_contact = ("Mom", "Hannah Smith", "704-555-0199")
