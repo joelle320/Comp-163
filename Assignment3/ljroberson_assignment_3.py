@@ -2,9 +2,9 @@
 
 # Personal Information Storage
 full_name = "Lauren Roberson"
-student_email = "jsmith@ncat.edu"
-hometown = "Charlotte, NC"
-graduation_semester = "Spring 2028"
+student_email = "ljroberson@aggies.ncat.edu"
+hometown = "Chicago, IL"
+graduation_semester = "Spring 2029"
 major = "Computer Science"
 
 # Academic Data Organization
