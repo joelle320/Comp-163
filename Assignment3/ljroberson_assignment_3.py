@@ -1,7 +1,7 @@
 # Personal Data Portfolio
 
 # Personal Information Storage
-full_name = "Jordan Smith"
+full_name = "Lauren Roberson"
 student_email = "jsmith@ncat.edu"
 hometown = "Charlotte, NC"
 graduation_semester = "Spring 2028"
