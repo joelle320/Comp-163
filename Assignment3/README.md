@@ -21,3 +21,5 @@ This Python program demonstrates the use of strings, lists, tuples, sets, and di
 Open Assignment3 Folder to Access Python Code
 python ljroberson_assignment3.py
 To View Commits: https://github.com/joelle320/Comp-163/tree/assign-3/Assignment3https://github.com/joelle320/Comp-163/tree/assign-3/Assignment3
+
+# BE SURE TO BE ON THE Assign-3 BRANCH!!
