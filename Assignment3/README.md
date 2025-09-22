@@ -17,7 +17,6 @@ This Python program demonstrates the use of strings, lists, tuples, sets, and di
 - Professional formatted console output  
 
 ## How to Run  
-```bash
 Open Assignment3 Folder to Access Python Code
 python ljroberson_assignment3.py
 To View Commits: https://github.com/joelle320/Comp-163/tree/assign-3/Assignment3https://github.com/joelle320/Comp-163/tree/assign-3/Assignment3
