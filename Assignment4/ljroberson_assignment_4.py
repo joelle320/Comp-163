@@ -40,3 +40,28 @@ elif choice == "C":
 else:
     print("Invalid input. Please choose A, B, or C.")
 
+#Step 3
+study_options = ["Programming", "Math", "English", "History"]
+
+print("Choose a study focus from the list below:")
+print(study_options)
+user_study = input("Your choice: ")
+
+if user_study in study_options:
+    if (user_study is "Programming" or user_study is "Math") and current_gpa < 2.5:
+        print(f"Your Choice: {user_study} You may struggle with technical/mathematical courses, so your GPA might drop a little.")
+        current_gpa -= 0.2
+        stress_level += 15
+    elif user_study is not "Programming" and user_study is not "Math":
+        print(f"Your Choice: {user_study} You chose a writing-heavy subject. Expect long nights of writing.")
+        social_points += 5
+        stress_level += 5
+    else:
+        print(f"Your Choice: {user_study} Good choice!")
+        study_hours += 5
+elif user_study not in study_options:
+    print("Invalid choice. Please choose from the list.")
+print(f"GPA:{round(current_gpa,2)}")
+print(f"Study Hours: {study_hours}")
+print(f"Stress Level: {stress_level}")
+print(f"Social Points: {social_points}")
