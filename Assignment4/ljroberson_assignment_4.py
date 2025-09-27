@@ -65,3 +65,46 @@ print(f"GPA:{round(current_gpa,2)}")
 print(f"Study Hours: {study_hours}")
 print(f"Stress Level: {stress_level}")
 print(f"Social Points: {social_points}")
+
+#Step 4
+print("--- Final Semester Assessment ---")
+print("Make your final choice to determine the outcome of the semester!")
+print("A) Focus on grades")
+print("B) Focus on social life")
+print("C) Balance both")
+
+final_choice = input("Your choice: ")
+
+research_opportunity = "A"
+social_opportunity = "B"
+balance_opportunity = "C"
+opportunity_type = final_choice
+
+if type(current_gpa) == float:
+    if opportunity_type == research_opportunity:
+        if current_gpa >= 3.5 and stress_level < 50:
+            print("Ending 1: You aced this semester! Your GPA and stress are manageable.")
+        else:
+            print("Ending 2: You focused on grades but stress took a toll. Remember to balance next time.")
+    elif opportunity_type == social_opportunity:
+        if social_points >= 30:
+            print("Ending 3: Your social life is amazing but your GPA suffered.")
+        else:
+            print("Ending 4: You tried to socialize but didn’t do the best.")
+    elif opportunity_type == balance_opportunity:
+        if study_hours >= 20 and social_points >= 30:
+            print("Ending 5: You pretty much balanced academics and your social life.")
+        else:
+            print("Ending 6: You aimed for balance but could work on time management.")
+    elif opportunity_type != research_opportunity and opportunity_type != social_opportunity and opportunity_type != balance_opportunity:
+        print("Invalid choice. No final outcome determined.")
+else:
+    print("Error: GPA type invalid, cannot determine final outcome.")
+
+print("--- Final Status ---")
+print(f"Student: {student_name}")
+print(f"GPA: {round(current_gpa,2)}")
+print(f"Study hours: {study_hours}")
+print(f"Social points: {social_points}")
+print(f"Stress level: {stress_level}")
+print("-------------------")
