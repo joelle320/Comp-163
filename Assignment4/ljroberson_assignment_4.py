@@ -1,3 +1,6 @@
+#OpenAI. (2025) ChatGPT (GPT-5-mini). Retrieved September 26, 2025, from chatgpt.com. I used ChatGPT to get help on writing a README and debugging Python syntax errors related to the use of 'is' and 'is not' with strings, and correct implementation of if-else statements. Additionally, I chatgpt to help me decide if the use of == or is would be a good fit. During each stage of programming, I sent chatgpt the instructions and asked them to explain simply. 
+
+
 #Step 1
 student_name = "Lauren Roberson" 
 current_gpa = 3.0
