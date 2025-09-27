@@ -1,4 +1,4 @@
-Step 1
+#Step 1
 student_name = "Lauren Roberson" 
 current_gpa = 3.0
 study_hours = 20
