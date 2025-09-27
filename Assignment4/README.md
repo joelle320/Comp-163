@@ -22,4 +22,4 @@ The **Sims: College Life Adventure Game** is a text-based game where you get to 
 # How to Run the Game
 Open Assignment4 Folder to Access Python Code
    python ljroberson_assignment_4.py
-   To View Commits:
+   To View Commits: https://github.com/joelle320/Comp-163/tree/main/Assignment4
