@@ -1,12 +1,12 @@
 # Assignment 3  
 
-## Author  
+# Author  
 Lauren Roberson – COMP 163, Fall 2025  
 
-## Description  
+# Description  
 This Python program demonstrates the use of strings, lists, tuples, sets, and dictionaries to organize academic and personal data. It also performs calculations such as GPA averages, budget projections, and workload assessments while presenting the results in a formatted, professional output.  
 
-## Features  
+# Features  
 - Personal information storage (name, email, hometown, graduation date, etc.)  
 - Academic data management (courses, credits, GPA history)  
 - Contact and social media information stored in tuples  
