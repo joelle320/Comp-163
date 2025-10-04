@@ -14,9 +14,9 @@ Multiplication Table Grid
 - creates a neatly formatted table of products from 1 to 10, displayed in aligned rows and columns.  
 
 # How It Works  
-- Collatz: Uses a `while` loop to continue until the number becomes 1. It prints each number in the sequence and counts the steps.  
-- Prime Checker: Uses a `for` loop to go through all possible divisors. It reports if the number is prime or not.  
-- Multiplication Table: Uses nested `for` loops to calculate each product and print a 10×10 grid.  
+- Collatz: Uses a while loop to continue until the number becomes 1. It prints each number in the sequence and counts the steps.  
+- Prime Checker: Uses a for loop to go through all possible divisors. It reports if the number is prime or not.  
+- Multiplication Table: Uses nested for loops to calculate each product and print a 10×10 grid.  
 
 # AI Help  
 I used ChatGPT (OpenAI, 2025) to correct the code formatting and explain indentation errors. 
@@ -25,5 +25,3 @@ I used ChatGPT (OpenAI, 2025) to correct the code formatting and explain indenta
 Open Assignment5 Folder to Access Python Code
 python ljroberson_assignment5.py
 To View Commits: https://github.com/joelle320/Comp-163/tree/main/Assignment5
-
-Each challenge focuses on using the correct loop structure and formatting techniques to solve a classic programming problem.
