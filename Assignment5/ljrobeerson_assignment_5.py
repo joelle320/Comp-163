@@ -32,3 +32,18 @@ for i in range(2, n):
 if is_prime:
     print(f"{n} is prime!")
 print()
+#TEST CASEE 3
+print("=== Challenge 3: Multiplication Table ===")
+print("Multiplication Table:")
+
+print("   ", end="")
+for col in range(1, 11):
+    print(f"{col:4}", end="")
+print()
+
+for row in range(1, 11):
+    print(f"{row:2}", end="")
+    for col in range(1, 11):
+        product = row * col
+        print(f"{product:4}", end="")
+    print()
