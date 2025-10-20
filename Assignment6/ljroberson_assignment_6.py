@@ -1,3 +1,5 @@
+#OpenAI. (2025) ChatGPT (GPT-5-mini). Retrieved October 19, 2025, from chatgpt.com. I used ChatGPT to get help on project desccription in README and debugging Python logic errors related to the structure of my loops. Additionally, ChatGPT also helped by breaking down why certain string methods were necessary in different parts of the code.
+
 # ljroberson_assignment_6.py
 # Student: Lauren Roberson
 # Assignment 6: Contact Information Formatter
