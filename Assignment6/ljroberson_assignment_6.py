@@ -5,6 +5,7 @@
 # Step 1: Initial Setup
 print("Enter contact information (format: name|phone|email|address):")
 print(f"\n=== CONTACT DIRECTORY ===")
+
 contacts = []
 while True:
     contact = input().strip()
@@ -13,6 +14,7 @@ while True:
         break
 contacts = contacts[:-1]
 # Step 2: Name/Address Cleaning
+contacts_list = []
 for i, contact in enumerate(contacts, start=1):
     fields = contact.split('|') 
     if len(fields) == 4:
@@ -45,5 +47,22 @@ for i, contact in enumerate(contacts, start=1):
         print(f"Phone: {phone}")
         print(f"Email: {email}")
         print(f"Address: {address}")
+
+        contacts_list.append((name, phone, email))
     else:
         print(f"Invalid:", contact)
+    
+# Step 5: Professional Formatting/Alignment
+print("\n=== DIRECTORY SUMMARY ===")
+print(f"Total contacts processed: {len(contacts_list)}")
+
+print("\n=== FORMATTED FOR PRINTING ===")
+for name, phone, email in contacts_list:
+    parts = name.split()
+    if len(parts) == 2:
+        last, first = parts[1], parts[0]
+        formatted_name = f"{last}, {first}"
+    else:
+        formatted_name = name
+
+    print(f"{formatted_name:<30}{phone:<20}{email}")
