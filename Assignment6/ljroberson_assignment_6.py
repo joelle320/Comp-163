@@ -21,7 +21,7 @@ for i, contact in enumerate(contacts, start=1):
         email = fields[2].strip().lower()
         address = fields[3].strip().title()
 
-        # Step 3: Implement phone number standardization
+        # Step 3: Phone Number Standardization
         digits_only = ""
         for char in phone:
             if char.isdigit():
@@ -30,7 +30,16 @@ for i, contact in enumerate(contacts, start=1):
             phone = f"({digits_only[0:3]}) {digits_only[3:6]}-{digits_only[6:10]}"
         else:
             phone = "Invalid number"
-            
+
+        # Step 4: State Detection
+        address_parts = fields[3].strip().split()
+        for j in range(len(address_parts)):
+            if len(address_parts[j]) == 2 and address_parts[j].isalpha():
+                address_parts[j] = address_parts[j].upper()
+            else:
+                address_parts[j] = address_parts[j].title()
+        address = " ".join(address_parts)
+       
         print(f"\nCONTACT {i}:")
         print(f"Name: {name}")
         print(f"Phone: {phone}")
