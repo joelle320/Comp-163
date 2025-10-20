@@ -21,6 +21,16 @@ for i, contact in enumerate(contacts, start=1):
         email = fields[2].strip().lower()
         address = fields[3].strip().title()
 
+        # Step 3: Implement phone number standardization
+        digits_only = ""
+        for char in phone:
+            if char.isdigit():
+                digits_only += char
+        if len(digits_only) == 10:
+            phone = f"({digits_only[0:3]}) {digits_only[3:6]}-{digits_only[6:10]}"
+        else:
+            phone = "Invalid number"
+            
         print(f"\nCONTACT {i}:")
         print(f"Name: {name}")
         print(f"Phone: {phone}")
