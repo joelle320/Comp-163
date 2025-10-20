@@ -2,9 +2,9 @@
 # Student: Lauren Roberson
 # Assignment 6: Contact Information Formatter
 
-# Step 1: Initial setup
+# Step 1: Initial Setup
 print("Enter contact information (format: name|phone|email|address):")
-
+print(f"\n=== CONTACT DIRECTORY ===")
 contacts = []
 while True:
     contact = input().strip()
@@ -12,16 +12,16 @@ while True:
     if contact == "DONE":
         break
 contacts = contacts[:-1]
-
-for contact in contacts:
+# Step 2: Name/Address Cleaning
+for i, contact in enumerate(contacts, start=1):
     fields = contact.split('|') 
     if len(fields) == 4:
-        name = fields[0]
-        phone = fields[1]
-        email = fields[2]
-        address = fields[3]
+        name = fields[0].strip().title()
+        phone = fields[1].strip()
+        email = fields[2].strip().lower()
+        address = fields[3].strip().title()
 
-        print(f"\n=== CONTACT DIRECTORY ===\n")
+        print(f"\nCONTACT {i}:")
         print(f"Name: {name}")
         print(f"Phone: {phone}")
         print(f"Email: {email}")
