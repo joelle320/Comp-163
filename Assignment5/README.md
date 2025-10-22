@@ -23,5 +23,5 @@ I used ChatGPT (OpenAI, 2025) to correct the code formatting and explain indenta
 
 ## How to Run  
 Open Assignment5 Folder to Access Python Code
-python ljroberson_assignment5.py
+python ljroberson_assignment_5.py
 To View Commits: https://github.com/joelle320/Comp-163/tree/main/Assignment5
